@@ -1,10 +1,12 @@
 ﻿Public Class bom
 
     Private Sub btnHitung_Click(sender As Object, e As EventArgs) Handles btnHitung.Click
+        'ini variabel untuk total pesanan masing2 item
         Dim totalA As Integer = 0
         Dim totalB As Integer = 0
         Dim totalC As Integer = 0
         Dim totalD As Integer = 0
+        'ini variabel untuk menghitung jumlah injector
         Dim ijA, ijB, ijC, ijD As Integer
         For Each pesenan In pesanClass.database
             totalA = totalA + pesenan.qt1
