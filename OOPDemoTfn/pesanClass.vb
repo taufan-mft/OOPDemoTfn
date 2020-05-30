@@ -19,7 +19,6 @@
         qt4 = q4
     End Sub
     Sub saveData()
-        ' database.Add(New pesanClass(kodepo, nama, alamat, qt1, qt2, qt3, qt4))
         database.Add(Me)
     End Sub
 End Class
