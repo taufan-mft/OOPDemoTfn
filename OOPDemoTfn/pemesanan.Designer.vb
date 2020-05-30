@@ -135,7 +135,7 @@ Partial Class pemesanan
         Me.txtKode.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtKode.CustomButton.UseSelectable = True
         Me.txtKode.CustomButton.Visible = False
-        Me.txtKode.Lines = New String() {"MetroTextBox1"}
+        Me.txtKode.Lines = New String(-1) {}
         Me.txtKode.Location = New System.Drawing.Point(84, 62)
         Me.txtKode.MaxLength = 32767
         Me.txtKode.Name = "txtKode"
@@ -147,7 +147,6 @@ Partial Class pemesanan
         Me.txtKode.ShortcutsEnabled = True
         Me.txtKode.Size = New System.Drawing.Size(219, 22)
         Me.txtKode.TabIndex = 8
-        Me.txtKode.Text = "MetroTextBox1"
         Me.txtKode.UseSelectable = True
         Me.txtKode.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtKode.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -166,7 +165,7 @@ Partial Class pemesanan
         Me.txtNama.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtNama.CustomButton.UseSelectable = True
         Me.txtNama.CustomButton.Visible = False
-        Me.txtNama.Lines = New String() {"MetroTextBox2"}
+        Me.txtNama.Lines = New String(-1) {}
         Me.txtNama.Location = New System.Drawing.Point(84, 91)
         Me.txtNama.MaxLength = 32767
         Me.txtNama.Name = "txtNama"
@@ -178,7 +177,6 @@ Partial Class pemesanan
         Me.txtNama.ShortcutsEnabled = True
         Me.txtNama.Size = New System.Drawing.Size(219, 22)
         Me.txtNama.TabIndex = 9
-        Me.txtNama.Text = "MetroTextBox2"
         Me.txtNama.UseSelectable = True
         Me.txtNama.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtNama.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -197,7 +195,7 @@ Partial Class pemesanan
         Me.txtAlamat.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtAlamat.CustomButton.UseSelectable = True
         Me.txtAlamat.CustomButton.Visible = False
-        Me.txtAlamat.Lines = New String() {"MetroTextBox3"}
+        Me.txtAlamat.Lines = New String(-1) {}
         Me.txtAlamat.Location = New System.Drawing.Point(84, 123)
         Me.txtAlamat.MaxLength = 32767
         Me.txtAlamat.Name = "txtAlamat"
@@ -209,7 +207,6 @@ Partial Class pemesanan
         Me.txtAlamat.ShortcutsEnabled = True
         Me.txtAlamat.Size = New System.Drawing.Size(194, 22)
         Me.txtAlamat.TabIndex = 10
-        Me.txtAlamat.Text = "MetroTextBox3"
         Me.txtAlamat.UseSelectable = True
         Me.txtAlamat.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtAlamat.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -228,7 +225,7 @@ Partial Class pemesanan
         Me.txtQt1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtQt1.CustomButton.UseSelectable = True
         Me.txtQt1.CustomButton.Visible = False
-        Me.txtQt1.Lines = New String() {"MetroTextBox4"}
+        Me.txtQt1.Lines = New String(-1) {}
         Me.txtQt1.Location = New System.Drawing.Point(558, 89)
         Me.txtQt1.MaxLength = 32767
         Me.txtQt1.Name = "txtQt1"
@@ -240,7 +237,6 @@ Partial Class pemesanan
         Me.txtQt1.ShortcutsEnabled = True
         Me.txtQt1.Size = New System.Drawing.Size(219, 22)
         Me.txtQt1.TabIndex = 11
-        Me.txtQt1.Text = "MetroTextBox4"
         Me.txtQt1.UseSelectable = True
         Me.txtQt1.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtQt1.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -259,7 +255,7 @@ Partial Class pemesanan
         Me.txtQt2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtQt2.CustomButton.UseSelectable = True
         Me.txtQt2.CustomButton.Visible = False
-        Me.txtQt2.Lines = New String() {"MetroTextBox5"}
+        Me.txtQt2.Lines = New String(-1) {}
         Me.txtQt2.Location = New System.Drawing.Point(557, 121)
         Me.txtQt2.MaxLength = 32767
         Me.txtQt2.Name = "txtQt2"
@@ -271,7 +267,6 @@ Partial Class pemesanan
         Me.txtQt2.ShortcutsEnabled = True
         Me.txtQt2.Size = New System.Drawing.Size(219, 22)
         Me.txtQt2.TabIndex = 12
-        Me.txtQt2.Text = "MetroTextBox5"
         Me.txtQt2.UseSelectable = True
         Me.txtQt2.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtQt2.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -290,7 +285,7 @@ Partial Class pemesanan
         Me.txtQt3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtQt3.CustomButton.UseSelectable = True
         Me.txtQt3.CustomButton.Visible = False
-        Me.txtQt3.Lines = New String() {"MetroTextBox6"}
+        Me.txtQt3.Lines = New String(-1) {}
         Me.txtQt3.Location = New System.Drawing.Point(558, 151)
         Me.txtQt3.MaxLength = 32767
         Me.txtQt3.Name = "txtQt3"
@@ -302,7 +297,6 @@ Partial Class pemesanan
         Me.txtQt3.ShortcutsEnabled = True
         Me.txtQt3.Size = New System.Drawing.Size(219, 22)
         Me.txtQt3.TabIndex = 13
-        Me.txtQt3.Text = "MetroTextBox6"
         Me.txtQt3.UseSelectable = True
         Me.txtQt3.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtQt3.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -321,7 +315,7 @@ Partial Class pemesanan
         Me.txtQt4.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtQt4.CustomButton.UseSelectable = True
         Me.txtQt4.CustomButton.Visible = False
-        Me.txtQt4.Lines = New String() {"MetroTextBox7"}
+        Me.txtQt4.Lines = New String(-1) {}
         Me.txtQt4.Location = New System.Drawing.Point(558, 183)
         Me.txtQt4.MaxLength = 32767
         Me.txtQt4.Name = "txtQt4"
@@ -333,7 +327,6 @@ Partial Class pemesanan
         Me.txtQt4.ShortcutsEnabled = True
         Me.txtQt4.Size = New System.Drawing.Size(174, 22)
         Me.txtQt4.TabIndex = 14
-        Me.txtQt4.Text = "MetroTextBox7"
         Me.txtQt4.UseSelectable = True
         Me.txtQt4.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtQt4.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
