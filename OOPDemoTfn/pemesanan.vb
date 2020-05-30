@@ -3,7 +3,7 @@
         Dim pesanan As New pesanClass(txtKode.Text, txtNama.Text, txtAlamat.Text, txtQt1.Text, txtQt2.Text,
                                       txtQt3.Text, txtQt4.Text)
         pesanan.saveData()
-        MetroListView1.Items.Clear()
+        MetroListView1.Items.Clear() 'karena aku pake tema Metro, maka listview nya begini. kalo kalian temanya biasa, hanya ListView1 saja
         For Each pesenan In pesanClass.database
             MetroListView1.Items.Add(New ListViewItem({pesenan.kodepo, pesenan.nama, pesenan.alamat,
                                      pesenan.qt1, pesenan.qt2, pesenan.qt3, pesenan.qt4}))
